@@ -6,7 +6,7 @@ async function foo(){
   var res1= await res.json();
   console.log(res1);
   var div=document.createElement("div");
-  
+    div.style.margin="20px 50px"
     try{
         for(let i in res1){
             div.innerHTML=`<div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
